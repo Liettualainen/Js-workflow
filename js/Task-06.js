@@ -14,8 +14,6 @@ textInput.addEventListener("focus", () => {
    textInput.className = "item";
 });
 
-
-
 textInput.addEventListener("blur", () => {
       if (textInput.value.length === "") {
      textInput.value = "";
