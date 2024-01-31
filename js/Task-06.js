@@ -8,7 +8,6 @@ textInput.addEventListener("input", (event) => {
    textInput.value = event.currentTarget.value;
    console.log(textInput.value.length)
 })
-
 textInput.addEventListener("focus", () => {
    textInput.value = "";
    textInput.className = "item";
